@@ -1,3 +1,5 @@
+(rendered version available [here](./README.ipynb)! )
+
 # Ferret Food Solver
 
 This is a web API that uses optimization to find the right combination of ingredients to provide a balanced meal.
@@ -51,7 +53,7 @@ $$
 
 Expected usage of the api:
 
-```rest
+```
 POST /solve HTTP/1.1
 Content-Length: ...
 Content-Type: application/json
@@ -84,7 +86,7 @@ Every key-value pair is optional, so there will only exist assumptions that are 
 
 There will also be a bad request response if 
 
-```json
+```
 HTTP/1.1 400 Bad Request
 Content-Length: ...
 Content-Type: application/json
@@ -135,7 +137,7 @@ Content-Type: application/json
 
 A valid response will look like:
 
-```json
+```
 HTTP/1.1 200 OK
 Content-Length: ...
 Content-Type: application/json
