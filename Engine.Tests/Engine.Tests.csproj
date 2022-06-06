@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="glpk_4_65.dll" />
+      <None Remove="libglpk-cli.dll" />
+      <None Remove="libglpk_cli_native.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+        <PackageReference Include="NUnit" Version="3.13.1" />
+        <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+        <PackageReference Include="coverlet.collector" Version="3.0.2" />
+        <PackageReference Include="OPTANO.Modeling.GLPK" Version="4.65.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\engine\Engine.csproj" />
+    </ItemGroup>
+
+</Project>

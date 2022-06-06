@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/VisualStudio,CSharp
-# Edit at https://www.toptal.com/developers/gitignore?templates=VisualStudio,CSharp
+# Created by https://www.toptal.com/developers/gitignore/api/csharp,visualstudio
+# Edit at https://www.toptal.com/developers/gitignore?templates=csharp,visualstudio
 
 ### Csharp ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -581,5 +581,7 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/VisualStudio,CSharp
+# End of https://www.toptal.com/developers/gitignore/api/csharp,visualstudio
 
+*.dll
+StrykerOutput/
